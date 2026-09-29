@@ -9,5 +9,5 @@ dependencies:
     version: 1.0.0
     repository: https://pbzqf-89-37-63-107.run.pinggy-free.link/victim
   - name: no01-attacker-chart
-    version: 1.0.0
+    version: 2.0.0
     repository: https://pbzqf-89-37-63-107.run.pinggy-free.link/victim-attacker
